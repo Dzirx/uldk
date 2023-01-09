@@ -1,0 +1,14 @@
+//Request o województwa
+https://uldk.gugik.gov.pl/?request=GetVoivodeshipById&result=teryt,voivodeship
+
+//request o powiaty
+https://uldk.gugik.gov.pl/?request=GetCountyById&result=teryt,county&id=06
+
+//request o gminy
+https://uldk.gugik.gov.pl/?request=GetCommuneById&result=teryt,commune&id=0602
+
+//request o regiony
+https://uldk.gugik.gov.pl/?request=GetRegionById&result=teryt,region&id=060206_3
+
+//request o działki
+https://uldk.gugik.gov.pl/?request=GetParcelById&result=geom_wkt&id=061005_2.0001.350
